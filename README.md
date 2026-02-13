@@ -85,7 +85,9 @@ ACT Junction 1
 House	WAN IP	Gateway
 
 1	10.1.0.10	10.1.0.1
+
 2	10.1.0.11	10.1.0.1
+
 3	10.1.0.12	10.1.0.1
 
 
@@ -97,6 +99,7 @@ Airtel Junction
 House	WAN IP	Gateway
 
 4	10.2.0.4	10.2.0.1
+
 6 (Router A)	10.2.0.6	10.2.0.1
 
 
@@ -108,9 +111,13 @@ ACT Junction 2
 House	WAN IP	Gateway
 
 6 (Router B)	10.3.0.6	10.3.0.1
+
 7	10.3.0.7	10.3.0.1
+
 8	10.3.0.8	10.3.0.1
+
 9	10.3.0.9	10.3.0.1
+
 10	10.3.0.10	10.3.0.1
 
 
