@@ -117,27 +117,67 @@ House	WAN IP	Gateway
 
 ---
 
-🏠 LAN Configuration
 
+🏠 LAN Configuration
 Each residential unit is assigned a dedicated private /24 subnet
 (/24 = 255.255.255.0)
 
-House	LAN Network	Router LAN IP	DHCP Range
+House
+LAN Network
+Router LAN IP
+DHCP Range
+HOUSE-1
+LAN Network:192.168.10.0/24
+Router LAN IP:192.168.10.1
+DHCP Range:192.168.10.100 – 149
 
-1	192.168.10.0/24	192.168.10.1	192.168.10.100–149
-2	192.168.20.0/24	192.168.20.1	192.168.20.100–149
-3	192.168.30.0/24	192.168.30.1	192.168.30.100–149
-4	192.168.100.0/24	192.168.100.1	192.168.100.100–149
-6 (Airtel)	192.168.110.0/24	192.168.110.1	192.168.110.100–149
-6 (ACT)	192.168.111.0/24	192.168.111.1	192.168.111.100–149
-7	192.168.40.0/24	192.168.40.1	192.168.40.100–149
-8	192.168.50.0/24	192.168.50.1	192.168.50.100–149
-9	192.168.60.0/24	192.168.60.1	192.168.60.100–149
-10	192.168.70.0/24	192.168.70.1	192.168.70.100–149
+HOUSE-2
+LAN Network:192.168.20.0/24
+Router LAN IP:192.168.20.1
+DHCP Range:192.168.20.100 – 149
+
+HOUSE-3
+LAN Network:192.168.30.0/24
+Router LAN IP:192.168.30.1
+DHCP Range:192.168.30.100 – 149
+
+HOUSE-4
+LAN Network:192.168.100.0/24
+Router LAN IP:192.168.100.1
+DHCP Range:192.168.100.100 – 149
+
+HOUSE-6 (Airtel)
+LAN Network:192.168.110.0/24
+Router LAN IP:192.168.110.1
+DHCP Range:192.168.110.100 – 149
+
+HOUSE-6 (ACT)
+LAN Network:192.168.111.0/24
+Router LAN IP:192.168.111.1
+DHCP Range:192.168.111.100 – 149
+
+HOUSE-7
+LAN Network:192.168.40.0/24
+Router LAN IP:192.168.40.1
+DHCP Range:192.168.40.100 – 149
+
+HOUSE-8
+LAN Network:192.168.50.0/24
+Router LAN IP:192.168.50.1
+DHCP Range:192.168.50.100 – 149
+
+HOUSE-9
+LAN Network:192.168.60.0/24
+Router LAN IP:192.168.60.1
+DHCP Range:192.168.60.100 – 149
+
+HOUSE-10
+LAN Network:192.168.70.0/24
+Router LAN IP:192.168.70.1
+DHCP Range:192.168.70.100 – 149
 
 
-Each router acts as the default gateway for devices within its LAN.
-
+Each router acts as the default gateway for devices within its respective LAN.
 
 ---
 
