@@ -122,10 +122,6 @@ House	WAN IP	Gateway
 Each residential unit is assigned a dedicated private /24 subnet
 (/24 = 255.255.255.0)
 
-House
-LAN Network
-Router LAN IP
-DHCP Range
 HOUSE-1
 LAN Network:192.168.10.0/24
 Router LAN IP:192.168.10.1
